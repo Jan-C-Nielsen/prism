@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index",
-    "build": "npm install -g @stoplight/prism-cli",
+    "build": "npm install -g @stoplight/prism-cli ; npm i express ; npm i cors",
     "runit": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
