@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon index",
     "build": "npm install -g @stoplight/prism-cli",
-    "runit": "prism schema.prism",
+    "runit": "prism mock schema.prism",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
