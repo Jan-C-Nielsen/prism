@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index",
+    "build": "npm install -g @stoplight/prism-cli",
+    "run": "prism graphql -s schema.prism --port 4000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
