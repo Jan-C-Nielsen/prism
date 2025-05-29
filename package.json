@@ -7,6 +7,7 @@
     "dev": "nodemon index",
     "build": "npm install -g @stoplight/prism-cli ; npm i express ; npm i cors",
     "runit": "node index",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
